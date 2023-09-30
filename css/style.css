@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+}
+
+.intro-image{
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex; /*flex teeb ala ruutudeks*/
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.intro-image_link a{
+    text-decoration: none; /*võtab lingilt joone ära*/
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #200d066f;
+    color: #c1b4ac;
+    padding: 1rem;
+    border: 2px solid #200d06b1;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover{
+    transform: scale(1.2); /*suurendab teksti peale minnes*/
+}
+
+.intro-text{
+    height: 250px;
+    background-color:#4b3e38;
+    color: #c1b4ac;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image{
+    height: 450px;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed; /*parrallax*/
+}
+
+.quality-image_link a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #30344891;
+    color: #d9dbea;
+    padding: 1rem;
+    border: 2px solid #303448;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image_link a:hover{
+    transform: scale(1.2);
+}
+
+.quality-text{
+    height: 250px;
+    background-color: #a6a6ac;
+    color: #303448;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.quality-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image{
+    height: 450px;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed; /*parrallax*/
+}
+
+.origin-image_link a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #bf9445bd;
+    color: #d9dbea;
+    padding: 1rem;
+    border: 2px solid #303448;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image_link a:hover{
+    transform: scale(1.2);
+}
+
+.origin-text{
+    height: 250px;
+    background-color: #997637;
+    color: #303448;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.origin-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    height: 250px;
+    background-color:#4b3e38;
+    color: #c1b4ac;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #c1b4ac;
+}
+.footer ul li:hover {
+    transform: scale(1.2);
+}
