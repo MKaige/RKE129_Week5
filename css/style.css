@@ -115,7 +115,7 @@ body{
     background-color: #bf9445bd;
     color: #d9dbea;
     padding: 1rem;
-    border: 2px solid #303448;
+    border: 2px solid #564537;
     transition: all 1s ease-in-out;
 }
 
@@ -126,7 +126,7 @@ body{
 .origin-text{
     height: 250px;
     background-color: #997637;
-    color: #303448;
+    color: #44362a;
     display: flex; 
     align-items: center;
     justify-content: center;
